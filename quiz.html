@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <title>Quiz-Game</title>
+  </head>
+  <body>
+    <header>
+      <h1>Quiz-Game</h1>
+      <p>Do you know JS? Find out!</p>
+      <div id="score">
+        Score: <span id="correct">0</span> / <span id="completed">5</span>
+      </div>
+    </header>
+    <main>
+      <div id="statement"></div>
+      <div id="options">
+        <button name="true" value="true">true</button>
+        <button name="false" value="false">false</button>
+      </div>
+      <div id="explanation"></div>
+      <button id="next-question" name="next-question" disabled="">
+        Next Question
+      </button>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
